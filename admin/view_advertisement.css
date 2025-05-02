@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Sidebar start */
+.sidebar{
+    position: fixed;
+    height: 100%;
+    width: 240px;
+    background: #01c99a;
+    transition: all 0.5s ease;
+}
+.logo-details{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.logo_image{
+    width: 33px;
+    margin-right: 8px;
+}
+.logo_name{
+    color: black;
+    font-size: 23px;
+    font-weight: 550;
+}
+.nav-links{
+    margin-top: 10px;
+}
+.nav-links li{
+    position: relative;
+    list-style: none;
+    height: 50px;
+}
+.nav-links li a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+.nav-links li a:hover{
+    background: #fff;
+}
+.nav-links li img{
+    width: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 18px;
+    margin-left: 20px;
+}
+.nav-links li a span{   
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+/* Sidebar end */
+
+/* Home section start */
+.home-section{
+    position: relative;
+    background-color: #ededed;
+    min-height: 100vh;
+    width: calc(100% - 240px);
+    left: 240px;
+    transition: all 0.5s ease;
+}
+
+
+/* Home section navbar start */
+.home-section nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #fff;
+    padding: 0 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+}
+.dashboard{
+    color: #01c99a;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.profile-details{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F5F6FA;
+    border: 2px solid #EFEEF1;
+    border-radius: 6px;
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img1{
+    height: 30px;
+    width: 30px;
+    border-radius: 6px;
+    object-fit: cover;
+    margin-left: 25px;
+}
+.profile-details .admin_name{
+    font-size: 16px;
+    font-weight: 550;
+    color: #333;
+    margin: 0 10px;
+    white-space: nowrap;
+}
+.img2{
+    height: 20px;
+    width: 20px;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+.dropdown-content img{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+.dropdown-content a:hover {
+    background-color: #01c99a;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.dropdown:hover .profile-details {
+    background-color: #d4d4d4;
+}
+/* Home section navbar end */
+
+/* Home section content start */
+.home-content{
+    position: relative;
+    padding-top: 30px;
+}
+.overview-boxes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 20px;
+    gap: 30px 20px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background: #fff;
+    padding: 15px 14px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.box-topic{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.number{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: -6px;
+    font-weight: 500;
+}
+.box-image{
+    width: 50px;
+    height: 50px;
+}
+/* Home section content end */
+
+/* Home section Table start */
+.tbl{
+    margin: 30px 10px;
+}
+.details-name{
+    font-size: 24px;
+    font-weight: 550;
+    color: #01c99a;
+}
+table{
+    margin-top: 20px;
+    width: 100%;
+}
+th{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+.id{
+    width: 10%;
+}
+.column{
+    width: 20%;
+}
+td{
+    font-size: 13px;
+    padding-bottom: 12px 0;
+    text-align: center;
+    border: 1px solid black;
+}
+.updation{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+.updation-btn{
+    width: 100%;
+    font-size: 12px;
+    background-color: #01c99a;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+.last-btn{
+    margin-bottom: 10px;
+}
+/* Home section Table end */
+
+/* Home section end */

@@ -1,0 +1,145 @@
+html{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Nav Bar Start*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px;
+    background-color: #01c99a;
+    align-items: center;
+}
+.main-logo{
+    width: 300px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+.anchor{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 550;
+}
+.anchor:hover{
+    color: #f4f7f8;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.profile{
+    width: 30px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    right: -10px;
+    background-color: #f1f1f1;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+.details{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.left img{
+    margin-left: 8px;
+    background-color: #9f9f9f;
+    padding: 10px;
+    border-radius: 2000px;
+    width: 15px;
+    height: 15px;
+}
+.right{
+    margin-right: 20px;
+}
+.span1{
+    font-size: 18px;
+    font-weight: 600;
+}
+.span2{
+    font-size: 12px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 8px 1px;
+    text-decoration: none;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.dropdown-content img{
+    height: 25px;
+    width: 25px;
+    margin: 0 15px;
+}
+.dropdown-content a:hover {
+    background-color: #9f9f9f;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+/* Nav Bar End */
+
+/* Main Content Start */
+.content{
+    display: block;
+    height: 70vh;
+    padding: 40px;
+}
+.content h3{
+    color: #01c99a;
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+.content p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+/* Main Content End */
+
+/* footer Start*/
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navbar1{
+    padding: 30px 30px;
+    background-color: #01c99a;
+}
+.menus{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+.anchor{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 550;
+}
+.anchor:hover{
+    color: #f4f7f8;
+}
+/* Footer End */

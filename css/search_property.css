@@ -1,0 +1,250 @@
+html{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Nav Bar Start*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px;
+    background-color: #01c99a;
+    align-items: center;
+}
+.main-logo{
+    width: 300px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+.anchor{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 550;
+}
+.anchor:hover{
+    color: #f4f7f8;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.profile{
+    width: 30px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    right: -10px;
+    background-color: #f1f1f1;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+.details{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.left img{
+    margin-left: 8px;
+    background-color: #9f9f9f;
+    padding: 10px;
+    border-radius: 2000px;
+    width: 15px;
+    height: 15px;
+}
+.right{
+    margin-right: 20px;
+}
+.span1{
+    font-size: 18px;
+    font-weight: 600;
+}
+.span2{
+    font-size: 12px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 8px 1px;
+    text-decoration: none;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.dropdown-content img{
+    height: 25px;
+    width: 25px;
+    margin: 0 15px;
+}
+.dropdown-content a:hover {
+    background-color: #9f9f9f;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+/* Nav Bar End */
+
+/* Post Gallery */
+.post-container{
+    width: 98vw;
+    height: 71vh;
+    background-color: #fff;
+    box-shadow: 0 0 20px #9f9f9f;
+    display: flex;
+    margin: 17px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+}
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 71vh; 
+}
+.image-container img{
+    width: 90%;
+    height: 88%;
+    border-radius: 15px;
+}
+.text-container{
+    width: 96%;
+    height: 86%;
+    margin: 30px 20px 20px 0;
+    display: grid;
+    grid-template-columns: 1fr; 
+    row-gap: 20px;
+    align-items: center;
+}
+.property-details{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    row-gap: 17px;
+    background-color: #e1e1e1;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.property{
+    font-size: 30px;
+    font-weight: 600;
+    color: #01c99a;
+    text-align: center;
+    padding-top: 10px;
+}
+.first-container{
+    font-size: 21px;
+    font-weight: bold;
+}
+.second-container{
+    font-size: 21px;
+}
+.second-container span{
+    font-weight: 600;
+}
+.third-container img{
+    width: 22px;
+    margin-right: 5px;
+}
+.lbl{
+    font-weight: 600;
+}
+.third-container{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.fourth-container{
+    width: 95%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #bababa;
+    padding: 0 20px 0 19px;
+    border-radius: 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    margin: 5px 0 5px 0;
+}
+.icons{
+    width: 28px;
+    margin-right: 5px;
+}
+.fifth-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 10px;
+    background-color: #e1e1e1;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.owner{
+    grid-column-start: span 2;
+    text-align: center;
+    font-weight: 600;
+    color: #01c99a;
+    font-size: 30px;
+    padding: 5px 0;
+}
+.label{
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+/* Property Listing end */
+
+.found{
+    color: #01c99a;
+    width: 100%;
+    height: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* footer Start*/
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navbar1{
+    padding: 30px 30px;
+    background-color: #01c99a;
+}
+.menus{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+.anchor{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 550;
+}
+.anchor:hover{
+    color: #f4f7f8;
+}
+/* Footer End */

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-image: url("/website3/img/bg3.jpg");
+	background-size: cover;
+    height: 97vh;
+}
+
+/* Nav Bar Start*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: #01c99a;
+    align-items: center;
+}
+.main-logo{
+    width: 300px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+.anchor{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 550;
+}
+.anchor:hover{
+    color: #f4f7f8;
+}
+.profile{
+    width: 30px;
+}
+
+/* Nav Bar End */
+
+/* Form Start */
+
+div{
+    display: block;
+}
+.form{
+    height: 76.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 400px;
+    background-color: #f4f7f8;
+    padding: 10px 80px;
+    border-radius: 28px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px 40px;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px; 
+}
+.form_span{
+    color: red;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.lbl{
+    display: block;
+    margin: 6px;
+}
+input{
+    border: none;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    font-size: 12px;
+    width: 93%;
+    padding: 14px;
+    border-radius: 10px;
+}
+.btn{
+    width: 100%;
+    padding: 15px 40px;
+    background-color: #01c99a;
+    color: white;
+    border: #01b389;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 28px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+/* Hovers Start */
+input:hover{
+    border: 1px solid #40ca6a;
+}
+.btn:hover{
+    background-color: #01b389;
+}
+.link:hover{
+    color: #01b389;
+}
+/* Hovers End */
+
+/* footer Start*/
+.navbar1{
+    padding: 30px 30px;
+    background-color: #01c99a;
+}
+.menus{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+.anchor{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 550;
+}
+.anchor:hover{
+    color: #f4f7f8;
+}
+/* Footer End */

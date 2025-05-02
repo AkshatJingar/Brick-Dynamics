@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="/Website3/admin/index.css">
+    <link rel="icon" href="/Website3/img/icon.png">
+</head>
+
+<body>
+    
+    <div class="logo-container">
+        <img src="/Website3/img/icon.png">
+        <span>Brick Dynamics</span>
+    </div>
+
+    <div class="form">
+        <form method="post" action="/Website3/admin/index.php">
+            <span class="heading-span"> Admin Login </span>
+
+            <div>
+                <label for="email" class="lbl">Email :</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email" required>
+            </div>
+
+            <div>
+                <label for="pass" class="lbl">Password :</label>
+                <input type="password" class="form-control" id="pass" name="pass" placeholder="Enter Password" required>
+            </div>
+
+            <div>
+                <input type="submit" class="btn" name="submit" value="Submit">
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
